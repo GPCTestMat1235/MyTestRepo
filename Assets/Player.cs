@@ -18,6 +18,6 @@ public class Player : MonoBehaviour
 
     void MovePlayer()
     {
-        transform.position += Vector3.left;
+        transform.position += Vector3.right;
     }
 }
